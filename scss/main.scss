@@ -1,0 +1,49 @@
+
+$myColor: red;
+$bgColor: #000;
+$boxColor: rgb(51, 0, 170);
+
+
+body{
+    background-color: $bgColor;
+}
+
+h1 {
+  $myColor: green;
+  color: $myColor;
+}
+
+p {
+  color: $myColor;
+}
+
+// nested nav list
+
+
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+nav li{
+  display: inline-block;
+}
+
+nav a{
+  display: block;
+  padding: 6px 12px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+background: $boxColor
+}
+
+
+
